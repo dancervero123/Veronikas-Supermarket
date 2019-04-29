@@ -1,0 +1,26 @@
+h1{
+    text-align:center;
+    background:lightblue;
+}
+
+.names{
+    display:flex;
+    justify-content:space-around;
+    background:pink;
+}
+
+h2{
+    color:white;
+}
+
+.shoppingCart{
+    background:#fdfd96;
+    display:flex;
+    justify-content:space-around;
+}
+
+.answers{
+    background:lavender;
+    display:flex;
+    justify-content:space-around;
+}
