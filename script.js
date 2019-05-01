@@ -4,7 +4,7 @@ products=[];
 var costs;
 costs=[];
 
-var total=0;
+
 
 $(".addProduct").click(function() {
     var productName = $(".productName").val();
@@ -16,14 +16,16 @@ $(".addProduct").click(function() {
     costs.push(productPrice);
     $(".rowLeft").append("<li>" + productName + "</li>");
     $(".rowRight").append("<li>"+ "$" + productPrice + "</li>");
+    var total=0;
     costs.forEach(function(cost) {
         total= total + parseInt(cost);
-        $(".overallCost").text("Price:" + total);
+        $(".overallCost").text("Price: $" + total);
         console.log(cost);
         });       
 });
 
 $(".purchaseItems").click(function() {
+    var total=0;
     alert("Thank you for purchasing " + products[0] + ", your total is $" + total + ".");
 });
 
