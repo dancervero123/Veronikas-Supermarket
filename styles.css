@@ -24,3 +24,11 @@ h2{
     display:flex;
     justify-content:space-around;
 }
+
+.numItems{
+    background:#c0ffc0;
+}
+
+.overallCost{
+    background:#c0ffc0;
+}
